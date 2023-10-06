@@ -1,27 +1,28 @@
 # 90-degree_hybrid_coupler
 
-To design a 90-degree hybrid coupler, follow these steps:
+Designing a 90-Degree Hybrid Coupler
+In this project, you are tasked with designing a 90-degree hybrid coupler as shown in Figure 1.1. The goal is to design it for a specific frequency, f_0, which is 2 GHz in this case, based on the provided table and guidelines. The substrate material is 4003 Rogers with the following properties: height (h) = 20 mils, relative permittivity (εr) = 3.55, and loss tangent (tanδ) = 0.0027. The thickness of the metal layer is 18 micrometers.
 
-Simulation Setup:
-Choose the substrate material: Use 4003 Rogers with a thickness of 20 mil, a dielectric constant (εr) of 3.55, and a loss tangent (tanδ) of 0.0027.
-Set the conductor thickness to 18 µm.
-Define the working frequency according to the table provided (Table 1) around 0f GHz.
-Specify the line impedance as 50 ohms.
-Design Steps:
-Create the schematic of the 90-degree hybrid coupler as shown in Figure 1.1, and set the working frequency according to Table 1.
-If the designed frequency does not match the specified value, use the tuning tool to adjust the working frequency.
-Reporting:
-a) Provide a report containing the schematic of the designed structure.
-b) Plot the magnitude of S-parameters Sii for i = 4, ..., 1 on a single graph.
-c) Plot the magnitude of S-parameters S21 and S31 on the same graph.
-d) Plot the phase of S-parameters S21 and S31 on the same graph.
-e) Plot the magnitude of S-parameter S41.
+Simulation Steps:
+Design the 90-degree hybrid coupler according to the provided specifications using simulation software such as ADS (Advanced Design System).
 
-Simulation Optimization:
-Using the schematic, create the layout of the structure in HFSS software and optimize it to achieve the desired parameters.
+Create the schematic of the designed structure.
 
-f) Report the layout of the optimized structure.
-g) Report the plots from (b) to (e) for the optimized structure.
-h) Display the electric field magnitude on the ground plane of the structure.
+Perform frequency domain analysis with a frequency range of 2 GHz ± 1 GHz (from 1 GHz to 3 GHz).
 
-Please perform the simulation and design steps as described above and report your findings.
+Tune the design frequency using the tuning tool if the desired frequency (2 GHz) is not achieved.
+
+Tasks and Reporting:
+a) Report the schematic of the designed 90-degree hybrid coupler.
+
+b) Plot the magnitude of S-parameters (S11, S21, S31, S41) on a single graph for frequencies from 1 GHz to 3 GHz.
+
+c) Plot the phase of S-parameters (S11, S21, S31, S41) on a single graph for frequencies from 1 GHz to 3 GHz.
+
+d) Plot the magnitude of S-parameters (S12, S22, S32, S42) on a single graph for frequencies from 1 GHz to 3 GHz.
+
+e) Plot the phase of S-parameters (S12, S22, S32, S42) on a single graph for frequencies from 1 GHz to 3 GHz.
+
+f) Report the magnitude of the electric field on the ground plane of the structure.
+
+Please make sure to follow the provided instructions carefully, perform the simulation, and report the results for each task.
