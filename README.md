@@ -1,7 +1,7 @@
 # 90-degree_hybrid_coupler
 
 Designing a 90-Degree Hybrid Coupler
-In this project, you are tasked with designing a 90-degree hybrid coupler as shown in Figure 1.1. The goal is to design it for a specific frequency, f_0, which is 2 GHz in this case, based on the provided table and guidelines. The substrate material is 4003 Rogers with the following properties: height (h) = 20 mils, relative permittivity (εr) = 3.55, and loss tangent (tanδ) = 0.0027. The thickness of the metal layer is 18 micrometers.
+In this project, you are tasked with designing a 90-degree hybrid coupler. The goal is to design it for a specific frequency, f_0, which is 2 GHz in this case, based on the provided table and guidelines. The substrate material is 4003 Rogers with the following properties: height (h) = 20 mils, relative permittivity (εr) = 3.55, and loss tangent (tanδ) = 0.0027. The thickness of the metal layer is 18 micrometers.
 
 Simulation Steps:
 Design the 90-degree hybrid coupler according to the provided specifications using simulation software such as ADS (Advanced Design System).
